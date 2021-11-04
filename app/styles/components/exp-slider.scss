@@ -31,6 +31,10 @@
 .exp-slider .exp-controls {
     text-align: center;
 }
+// increase size of Next button
+.exp-slider .btn {
+    font-size: 1.5em;
+}
 // enlarge slider handles
 .exp-slider .ui-slider .ui-slider-handle {
     height: 3em;
@@ -39,8 +43,8 @@
 .exp-slider .ui-slider-horizontal .ui-slider-handle {
     top: -1.2em;
 }
-// margin above/below slider bar (make room for enlarged handles)
+// margin above/below slider bar
 .exp-slider .exp-slider-widget {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
