@@ -1,3 +1,4 @@
+// Center slider in window (vert and horiz)
 .exp-slider{
     padding: 20px;
     position: fixed;
@@ -6,6 +7,11 @@
     width: 100%;
     transform: translate(-50%, -50%);
 }
+// Center title
+.exp-slider-title {
+    text-align: center;
+}
+// Add midline to slider bar
 .exp-slider .exp-slider-midline {
     height: 100%;
     width: 50%;
@@ -21,4 +27,20 @@
     float: right;
     margin-top: 1em;
 }
-
+// center Next button
+.exp-slider .exp-controls {
+    text-align: center;
+}
+// enlarge slider handles
+.exp-slider .ui-slider .ui-slider-handle {
+    height: 3em;
+}
+// keep enlarged slider handle centered on slider bar
+.exp-slider .ui-slider-horizontal .ui-slider-handle {
+    top: -1.2em;
+}
+// margin above/below slider bar (make room for enlarged handles)
+.exp-slider .exp-slider-widget {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
