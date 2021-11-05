@@ -21,11 +21,13 @@
     display: block;
     float: left;
     margin-top: 1em;
+    margin-left: 3em;
 }
 .exp-slider .exp-slider-label-right {
     display: block;
     float: right;
     margin-top: 1em;
+    margin-right: 3em;
 }
 // center Next button
 .exp-slider .exp-controls {
@@ -33,7 +35,7 @@
 }
 // increase size of Next button
 .exp-slider .btn {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 // enlarge slider handles
 .exp-slider .ui-slider .ui-slider-handle {
@@ -45,6 +47,6 @@
 }
 // margin above/below slider bar
 .exp-slider .exp-slider-widget {
-    margin-top: 2em;
-    margin-bottom: 4em;
+    margin-top: 8em;
+    margin-bottom: 8em;
 }
