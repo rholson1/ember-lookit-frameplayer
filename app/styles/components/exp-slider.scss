@@ -37,10 +37,12 @@
 .exp-slider .btn {
     font-size: 2.5em;
 }
-// enlarge slider handles
+// enlarge slider handles and set default handle color
 .exp-slider .ui-slider .ui-slider-handle {
     height: 3em;
+    background: #6a6a6a;
 }
+
 // keep enlarged slider handle centered on slider bar
 .exp-slider .ui-slider-horizontal .ui-slider-handle {
     top: -1.2em;
